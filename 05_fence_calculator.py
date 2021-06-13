@@ -42,7 +42,7 @@ while keep_going == "":
     # width, length and cost_per_m of the fencing
     width = num_check("Width: ")
     length = num_check("Length: ")
-    cost_per_m = num_check("Cost per metre: ")
+    cost_per_m = num_check("Cost per metre: $ ")
     
 
     print("replace me with input statements")
@@ -59,7 +59,9 @@ while keep_going == "":
 
     
     keep_going = input("Press <enter> to keep going or any key to quit")
-    
+
+print()
+print("-" * 30)    
 print()
 print("Thanks for using the Fencing cost calculator")
 
