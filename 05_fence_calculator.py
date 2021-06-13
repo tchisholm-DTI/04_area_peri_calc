@@ -48,10 +48,14 @@ while keep_going == "":
     print("replace me with input statements")
 
     # Calulate perimeter (width + height) x 2
+    perimeter = 2 * (width + length)
     
     # Calculate the cost of the fencing (perimeter x price / meter)
-
+    cost_of_fencing = (perimeter * cost_per_m)
+    
     # Output the perimeter and cost of the fencing
+    print("The perimeter is {:.2f} units" .format(perimeter))
+    print("The cost of the fencing is ${:.2f} " .format(cost_of_fencing))
 
     
     keep_going = input("Press <enter> to keep going or any key to quit")
